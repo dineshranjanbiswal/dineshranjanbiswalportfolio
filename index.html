@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/site.webmanifest">
+    <!-- cdn link for remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+        integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+
+    <link rel="stylesheet" href="./assets/css/sweetalert2.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/main-style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="./assets/css/responsive-style.css"> -->
+    <title>Dinesh Ranjan Biswal</title>
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="d_logo">
+                <span class="d_logo-circle">D</span>
+                <span class="d_logo-name">Dinesh Ranjan Biswal.</span>
+            </a>
+            <div class="nav_menu" id="nav-menu">
+                <span class="nav_title">Menu</span>
+
+                <h3 class="nav_name">Dinesh</h3>
+
+                <!-- nav lists -->
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">Home</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">About Me</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">Education</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skill" class="nav_link">Skills</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#projects" class="nav_link">Projects</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link nav_link_btn">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+                <div class="nav_close_btn" id="nav-close-btn">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+
+            <div class="nav_buttons">
+
+                <!-- Theme button -->
+                <i class="ri-moon-clear-line change_theme" id="theme-btn"></i>
+                <!-- end Theme button -->
+
+                <!-- toggle button   -->
+                <div class="nav_toggle_btn" id="nav-toggle-btn">
+                    <i class="ri-menu-2-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <main class="main" id="main">
+        <!-- home section -->
+        <section class="home_section section" id="home">
+            <div class="home_container container grid">
+                <h1 class="d_name" id="d-name"></h1>
+
+                <!-- image part -->
+                <div class="d_profile">
+                    <div class="d_image">
+                        <img src="" alt="" class="d_img" id="d-img">
+                        <div class="d_shadow"></div>
+
+                        <img src="./assets/images/curved-arrow.svg" alt="" class="d_arrow">
+                        <img src="./assets/images/random-lines.svg" alt="" class="d_line">
+                        <div class="geometric-box"></div>
+                    </div>
+
+                    <!-- social media part -->
+                    <div class="d_social">
+                        <a href="" target="_blank" class="d_social_link" id="instagram-url">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="" target="_blank" class="d_social_link" id="linkedin-url">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="d_social_link" id="github-url">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- info part -->
+                <div class="d_info">
+                    <!-- introduction part -->
+                    <p class="d_description" id="d-description"></p>
+
+                    <!-- scroll btn part -->
+                    <a href="#about" class="home_sroll">
+                        <div class="home_scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <span class="home_scroll-text">Scroll Down</span>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <!-- end home section -->
+
+        <!-- about section -->
+        <section class="about_section section" id="about">
+
+            <div class="about_container container grid">
+                <h2 class="section_title_1">
+                    <span>About Me.</span>
+                </h2>
+                <!-- about profile part -->
+                <div class="about_profile">
+                    <div class="about_image">
+                        <img src="" alt="image1" class="about_img" id="about-img">
+
+                        <div class="about_shadow"></div>
+
+                        <div class="geometric-box"></div>
+                        <img src="./assets/images/random-lines.svg" alt="" class="about_line">
+                        <div class="about_box"></div>
+                    </div>
+                </div>
+                <!-- end about profile part -->
+
+                <!-- about info part -->
+                <div class="about_info">
+                    <p class="about_description" id="about-description"></p>
+
+                    <!-- contact me and linkedin btn part  -->
+                    <div class="about_btn">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-fill"></i> Contact Me
+                        </a>
+                        <a href="" target="_blank" class="about_contact_btn" id="about-contact-btn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                    <!-- end contact me and linkedin btn part  -->
+
+                </div>
+                <!-- end about info part -->
+            </div>
+        </section>
+        <!--end about section -->
+
+        <!-- education section -->
+        <section class="education_section section" id="education">
+            <h2 class="section_title_2">
+                <span>Education.</span>
+            </h2>
+            <div class="education_container container grid" id="education-container"></div>
+        </section>
+        <!-- end education section -->
+
+        <!-- skill section  -->
+        <section class="skill_section section" id="skill">
+            <h2 class="section_title_1">
+                <span>Skills.</span>
+            </h2>
+
+            <div class="skill_container container grid" id="skill-container">
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="java_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">Java</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="java_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="springboot_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">Spring Boot</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="springboot_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="hibernatejpa_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">Hibernate/JPA</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="hibernate_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+
+                </div>
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="mysql_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">MySQL</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="mysql_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="html_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">HTML</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="html_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="css_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">CSS</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="css_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="skill_info">
+                    <div class="skill_circle_outer">
+                        <div class="skill_circle_inner">
+                            <div class="counter_number" id="bootstrap_counter"></div>
+                        </div>
+                    </div>
+                    <div class="skill_title">Bootstrap</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="bootstrap_circle" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <!--end skill section  -->
+
+        <!-- project section  -->
+        <section class="project_section section" id="projects">
+            <h2 class="section_title_2">
+                <span>Projects.</span>
+            </h2>
+            <!-- project card part -->
+            <div class="project_container container grid" id="project-container"></div>
+            <!-- project card part -->
+        </section>
+        <!-- end project section  -->
+
+        <!-- contact section  -->
+        <section class="contact_section section" id="contact">
+            <div class="contact_container grid">
+                <!-- contact heading part -->
+                <div class="contact_data">
+                    <h2 class="section_title_1">
+                        <span>Contact Me.</span>
+                    </h2>
+
+                    <p class="contact_description_1">
+                        I will read all emails. Send me any message you want and I'll get back to you.
+                    </p>
+                    <p class="contact_description_2">
+                        I need your <b>Name</b> and <b>Email Address</b>, but you won't receive anything other than your
+                        reply.
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+                <!-- end contact heading part -->
+
+                <!-- contact form part -->
+                <div class="contact_mail">
+                    <h2 class="contact_title">
+                        Send me a message
+                    </h2>
+                    <form action="" class="contact_form" id="contact-form">
+                        <div class="contact_group">
+                            <div class="contact_box">
+                                <input type="text" name="user_name" class="contact_input" id="name" required
+                                    placeholder="Full Name Here">
+                                <label for="name" class="contact_label">Full Name</label>
+                            </div>
+                            <div class="contact_box">
+                                <input type="email" name="user_email" class="contact_input" id="email" required
+                                    placeholder="Email Address Here">
+                                <label for="email" class="contact_label">Email Address</label>
+                            </div>
+                        </div>
+
+                        <div class="contact_box">
+                            <input type="text" name="user_subject" class="contact_input" id="subject" required
+                                placeholder="Subject Here">
+                            <label for="subject" class="contact_label">Subject</label>
+                        </div>
+
+                        <div class="contact_box contact_area">
+                            <textarea name="user_message" id="message" class="contact_input" required
+                                placeholder="Message Here"></textarea>
+                            <label for="message" class="contact_label">Message</label>
+                        </div>
+
+                        <button type="submit" class="contact_button button">
+                            <i class="ri-send-plane-fill"></i> Send Message
+                        </button>
+
+                    </form>
+                </div>
+                <!-- end contact form part -->
+
+                <!-- social media part -->
+                <div class="contact_social">
+                    <img src="./assets/images/curved-arrow.svg" alt="" class="contact_social_arrow">
+                    <div class="contact_social_data">
+                        <div>
+                            <p class="contact_social_description_1">
+                                Doesn't send emails
+                            </p>
+                            <p class="contact_social_description_2">
+                                Write me on my social networks
+                            </p>
+                        </div>
+
+                        <div class="contact_social_links">
+                            <a href="https://www.linkedin.com/in/dinesh-ranjan-biswal-48b863194/" target="_blank"
+                                class="contact_social_link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="" target="_blank" class="contact_social_link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- social media part -->
+            </div>
+        </section>
+        <!-- end contact section  -->
+
+    </main>
+    <!-- end main -->
+    <!-- footer section -->
+    <footer class="footer" id="footer">
+        <div class="footer_container container grid">
+            <ul class="footer_links">
+                <li>
+                    <a href="#about" class="footer_link">About</a>
+                </li>
+                <li>
+                    <a href="#education" class="footer_link">Education</a>
+                </li>
+                <li>
+                    <a href="#skill" class="footer_link">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer_link">Projects</a>
+                </li>
+            </ul>
+            <span class="footer_copy">
+                &#169; All Rights Reserved By &nbsp;
+                <a href="#home">Dinesh Ranjan Biswal.</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- scroll up section -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-drop-up-line"></i>
+    </a>
+    <!-- end scroll up section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src="./assets/js/sweetalert2.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
